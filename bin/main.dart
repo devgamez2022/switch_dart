@@ -4,8 +4,10 @@ void main(List<String> args) {
 
   switch (opcion) {
     case 1:
-      print('Estas en la opcion 1');
-      break;
+      {
+        print('Estas en la opcion 1');
+        break;
+      }
     case 2:
       print('Estas en la opcion 2');
       break;
